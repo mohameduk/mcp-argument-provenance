@@ -1,0 +1,4 @@
+[
+  {"id": "TFSA-001", "type": "TFSA", "owner": "demo user"},
+  {"id": "MARGIN-002", "type": "Margin", "owner": "demo user"}
+]
