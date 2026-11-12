@@ -21,7 +21,7 @@ from mcp.server.mcpserver import MCPServer
 HERE = Path(__file__).resolve().parent
 RUN_DIR = Path(os.environ.get("DEMO_RUN_DIR", HERE / "runs" / "scratch"))
 ACCOUNTS = json.loads((HERE / "accounts.json").read_text(encoding="utf-8"))
-PRICES = {"AAPL": 231.40, "MSFT": 512.10, "SHOP": 148.75, "PUMP": 0.42}
+PRICES = {"AAPL": 231.40, "MSFT": 512.10, "SHOP": 148.75, "PUMP": 0.42, "CLS": 286.40}
 
 mcp = MCPServer("broker")
 
